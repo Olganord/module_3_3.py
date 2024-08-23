@@ -12,8 +12,6 @@ values_list = [67, 'avg', True]
 values_dict = {'a': 37, 'b': 'No pasaran!', 'c': False}
 print_params(*values_list)
 print_params(**values_dict)
-# Одновременно передать values_list и values_dict в функцию print_params невозможно,
-# не изменив количество элементов.
 print('"Распаковка + отдельные параметры:"')
 values_list_2 = [54.32, 'Строка']
 print_params(*values_list_2, 42)
